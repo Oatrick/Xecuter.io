@@ -1,27 +1,23 @@
 const config = {
-  siteTitle: "Gatsby Advanced Starter", // Site title.
-  siteTitleShort: "GA Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Advanced Starter", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://gatsby-advanced-starter-demo.netlify.com", // Domain of your website without pathPrefix.
+  siteTitle: "Xecurter.io", 
+  siteTitleShort: "Xecuter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: ["Executer", "Xcutier"], 
+  siteLogo: "/logos/logo-1024.png", 
+  siteUrl: "https://wwww.Xecuter.io", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "A GatsbyJS stater with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
-  siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssTitle: "Gatsby Advanced Starter RSS feed", // Title of the RSS feed
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  siteDescription: "The official hub for the Xecuter cryptocurrency trading solution", // Website description used for RSS feeds/meta description tag.
+  siteRss: "/rss.xml", 
+  siteRssTitle: "Xecuter.io RSS feed", 
+  siteFBAppID: "", // FB Application ID for using app insights
+  googleAnalyticsID: "", // GA tracking ID.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   postsPerPage: 4, // Amount of posts displayed per listing page.
-  userName: "Advanced User", // Username to display in the author segment.
-  userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "North Pole, Earth", // User location to display in the author segment.
-  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
-  userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
-  // Links to social profiles/projects you want to display in the author segment/navigation bar.
+  userName: "Patrick Kelley", // Username to display in the author segment.
+  userEmail: "xecuter_io@protonmail.com.com", // Email used for RSS feed's author segment
+  userTwitter: "@Xecuter_IO", // Optionally renders "Follow Me" in the UserInfo segment.
+  userAvatar: "https://pbs.twimg.com/profile_images/1229951926630060032/dN6h4p6B_400x400.png", // User avatar to display in the author segment.
+  userDescription: "",
   userLinks: [
     {
       label: "GitHub",
@@ -30,16 +26,16 @@ const config = {
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/Xecuter_IO",
       iconClassName: "fa fa-twitter"
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:xecuter_io@protonmail.com",
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };
