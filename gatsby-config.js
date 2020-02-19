@@ -73,6 +73,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        includePaths: ["src/scss/"],
+      }
+    },
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
